@@ -46,6 +46,10 @@ module.exports.routes = {
   //  ╚╩╝╚═╝╚═╝╩ ╩╚═╝╚═╝╩ ╩╚═╝
   // …
 
+  // Vacations
+  'GET /vacation/new': {action: 'vacation/new'},
+  'POST /vacation/create': {action: 'vacation/create'},
+
 
   //  ╔═╗╔═╗╦  ╔═╗╔╗╔╔╦╗╔═╗╔═╗╦╔╗╔╔╦╗╔═╗
   //  ╠═╣╠═╝║  ║╣ ║║║ ║║╠═╝║ ║║║║║ ║ ╚═╗
